@@ -1,0 +1,119 @@
+Microsoft Windows [Version 10.0.22621.1555]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\git\presuniv-thesis-ddqn>c:/git/presuniv-thesis-ddqn/.venv/Scripts/activate.bat
+
+(.venv) C:\git\presuniv-thesis-ddqn>cd c:/git/presuniv-thesis-ddqn
+
+(.venv) c:\git\presuniv-thesis-ddqn>c:/git/presuniv-thesis-ddqn/.venv/Scripts/python.exe c:/git/presuniv-thesis-ddqn/eval.py
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+Loading a model without an environment, this model cannot be trained until it has a valid environment.
+Episode: 1 | dead by falling = +0 : Total:  0  | dead by others = +1 : Total:  1  | total rewards:  2707.0  | total steps:  143
+Episode: 2 | dead by falling = +0 : Total:  0  | dead by others = +0 : Total:  1  | total rewards:  3096.0  | total steps:  178
+Episode: 3 | dead by falling = +0 : Total:  0  | dead by others = +0 : Total:  1  | total rewards:  3103.0  | total steps:  160
+Episode: 4 | dead by falling = +0 : Total:  0  | dead by others = +0 : Total:  1  | total rewards:  3107.0  | total steps:  203
+Episode: 5 | dead by falling = +0 : Total:  0  | dead by others = +1 : Total:  2  | total rewards:  250.0  | total steps:  17
+Episode: 6 | dead by falling = +0 : Total:  0  | dead by others = +0 : Total:  2  | total rewards:  3117.0  | total steps:  156
+Episode: 7 | dead by falling = +0 : Total:  0  | dead by others = +0 : Total:  2  | total rewards:  3116.0  | total steps:  159
+Episode: 8 | dead by falling = +0 : Total:  0  | dead by others = +0 : Total:  2  | total rewards:  3099.0  | total steps:  162
+Episode: 9 | dead by falling = +0 : Total:  0  | dead by others = +0 : Total:  2  | total rewards:  3108.0  | total steps:  145
+Episode: 10 | dead by falling = +0 : Total:  0  | dead by others = +0 : Total:  2  | total rewards:  3116.0  | total steps:  152
+Episode: 11 | dead by falling = +0 : Total:  0  | dead by others = +1 : Total:  3  | total rewards:  1757.0  | total steps:  92
+Episode: 12 | dead by falling = +0 : Total:  0  | dead by others = +0 : Total:  3  | total rewards:  3117.0  | total steps:  165
+Episode: 13 | dead by falling = +0 : Total:  0  | dead by others = +0 : Total:  3  | total rewards:  3104.0  | total steps:  303
+Episode: 14 | dead by falling = +1 : Total:  1  | dead by others = +0 : Total:  3  | total rewards:  2426.0  | total steps:  117
+Episode: 15 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  3  | total rewards:  3099.0  | total steps:  221
+Episode: 16 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  3  | total rewards:  3112.0  | total steps:  150
+Episode: 17 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  3  | total rewards:  3107.0  | total steps:  148
+Episode: 18 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  3  | total rewards:  3113.0  | total steps:  158
+Episode: 19 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  3  | total rewards:  3115.0  | total steps:  171
+Episode: 20 | dead by falling = +0 : Total:  1  | dead by others = +1 : Total:  4  | total rewards:  755.0  | total steps:  49
+Episode: 21 | dead by falling = +0 : Total:  1  | dead by others = +1 : Total:  5  | total rewards:  250.0  | total steps:  17
+Episode: 22 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  5  | total rewards:  3105.0  | total steps:  167
+Episode: 23 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  5  | total rewards:  3108.0  | total steps:  160
+Episode: 24 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  5  | total rewards:  3094.0  | total steps:  151
+Episode: 25 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  5  | total rewards:  3104.0  | total steps:  493
+Episode: 26 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  5  | total rewards:  3105.0  | total steps:  186
+Episode: 27 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  5  | total rewards:  3116.0  | total steps:  147
+Episode: 28 | dead by falling = +0 : Total:  1  | dead by others = +1 : Total:  6  | total rewards:  250.0  | total steps:  17
+Episode: 29 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  6  | total rewards:  3105.0  | total steps:  168
+Episode: 30 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  6  | total rewards:  3104.0  | total steps:  163
+Episode: 31 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  6  | total rewards:  3106.0  | total steps:  165
+Episode: 32 | dead by falling = +0 : Total:  1  | dead by others = +1 : Total:  7  | total rewards:  1756.0  | total steps:  97
+Episode: 33 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  7  | total rewards:  3099.0  | total steps:  167
+Episode: 34 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  7  | total rewards:  3095.0  | total steps:  151
+Episode: 35 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  7  | total rewards:  3116.0  | total steps:  151
+Episode: 36 | dead by falling = +0 : Total:  1  | dead by others = +1 : Total:  8  | total rewards:  1901.0  | total steps:  89
+Episode: 37 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  8  | total rewards:  3104.0  | total steps:  159
+Episode: 38 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  8  | total rewards:  3110.0  | total steps:  192
+Episode: 39 | dead by falling = +0 : Total:  1  | dead by others = +1 : Total:  9  | total rewards:  2954.0  | total steps:  1003
+Episode: 40 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  9  | total rewards:  3111.0  | total steps:  151
+Episode: 41 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  9  | total rewards:  3116.0  | total steps:  154
+Episode: 42 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  9  | total rewards:  3108.0  | total steps:  154
+Episode: 43 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  9  | total rewards:  3098.0  | total steps:  173
+Episode: 44 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  9  | total rewards:  3112.0  | total steps:  147
+Episode: 45 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  9  | total rewards:  3114.0  | total steps:  156
+Episode: 46 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  9  | total rewards:  3099.0  | total steps:  169
+Episode: 47 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  9  | total rewards:  3113.0  | total steps:  170
+Episode: 48 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  9  | total rewards:  3114.0  | total steps:  156
+Episode: 49 | dead by falling = +0 : Total:  1  | dead by others = +1 : Total:  10  | total rewards:  635.0  | total steps:  31
+Episode: 50 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  10  | total rewards:  3110.0  | total steps:  163
+Episode: 51 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  10  | total rewards:  3110.0  | total steps:  158
+Episode: 52 | dead by falling = +0 : Total:  1  | dead by others = +1 : Total:  11  | total rewards:  2554.0  | total steps:  1003
+Episode: 53 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  11  | total rewards:  3115.0  | total steps:  171
+Episode: 54 | dead by falling = +0 : Total:  1  | dead by others = +0 : Total:  11  | total rewards:  3117.0  | total steps:  173
+Episode: 55 | dead by falling = +1 : Total:  2  | dead by others = +0 : Total:  11  | total rewards:  2428.0  | total steps:  147
+Episode: 56 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  11  | total rewards:  3110.0  | total steps:  200
+Episode: 57 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  11  | total rewards:  3115.0  | total steps:  148
+Episode: 58 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  11  | total rewards:  3105.0  | total steps:  168
+Episode: 59 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  12  | total rewards:  682.0  | total steps:  34
+Episode: 60 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  12  | total rewards:  3108.0  | total steps:  148
+Episode: 61 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  13  | total rewards:  3114.0  | total steps:  1003
+Episode: 62 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  14  | total rewards:  1884.0  | total steps:  92
+Episode: 63 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  14  | total rewards:  3106.0  | total steps:  169
+Episode: 64 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  14  | total rewards:  3099.0  | total steps:  155
+Episode: 65 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  14  | total rewards:  3115.0  | total steps:  147
+Episode: 66 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  15  | total rewards:  638.0  | total steps:  31
+Episode: 67 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  16  | total rewards:  1744.0  | total steps:  99
+Episode: 68 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  16  | total rewards:  3094.0  | total steps:  200
+Episode: 69 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  16  | total rewards:  3117.0  | total steps:  155
+Episode: 70 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  17  | total rewards:  2954.0  | total steps:  1003
+Episode: 71 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  18  | total rewards:  2314.0  | total steps:  1003
+Episode: 72 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  18  | total rewards:  3113.0  | total steps:  159
+Episode: 73 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  18  | total rewards:  3108.0  | total steps:  157
+Episode: 74 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  19  | total rewards:  250.0  | total steps:  17
+Episode: 75 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  19  | total rewards:  3107.0  | total steps:  167
+Episode: 76 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  19  | total rewards:  3108.0  | total steps:  252
+Episode: 77 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  19  | total rewards:  3113.0  | total steps:  208
+Episode: 78 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  19  | total rewards:  3108.0  | total steps:  169
+Episode: 79 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  20  | total rewards:  1907.0  | total steps:  90
+Episode: 80 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  20  | total rewards:  3117.0  | total steps:  161
+Episode: 81 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  20  | total rewards:  3095.0  | total steps:  150
+Episode: 82 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  20  | total rewards:  3115.0  | total steps:  159
+Episode: 83 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  20  | total rewards:  3115.0  | total steps:  180
+Episode: 84 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  20  | total rewards:  3116.0  | total steps:  156
+Episode: 85 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  20  | total rewards:  3112.0  | total steps:  154
+Episode: 86 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  21  | total rewards:  2938.0  | total steps:  1003
+Episode: 87 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  21  | total rewards:  3094.0  | total steps:  148
+Episode: 88 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  22  | total rewards:  2954.0  | total steps:  1003
+Episode: 89 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  23  | total rewards:  1629.0  | total steps:  89
+Episode: 90 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  23  | total rewards:  3117.0  | total steps:  288
+Episode: 91 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  24  | total rewards:  1738.0  | total steps:  93
+Episode: 92 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  25  | total rewards:  2954.0  | total steps:  1003
+Episode: 93 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  26  | total rewards:  638.0  | total steps:  31
+Episode: 94 | dead by falling = +0 : Total:  2  | dead by others = +1 : Total:  27  | total rewards:  250.0  | total steps:  17
+Episode: 95 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  27  | total rewards:  3101.0  | total steps:  148
+Episode: 96 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  27  | total rewards:  3114.0  | total steps:  184
+Episode: 97 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  27  | total rewards:  3111.0  | total steps:  310
+Episode: 98 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  27  | total rewards:  3110.0  | total steps:  408
+Episode: 99 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  27  | total rewards:  3116.0  | total steps:  153
+Episode: 100 | dead by falling = +0 : Total:  2  | dead by others = +0 : Total:  27  | total rewards:  3104.0  | total steps:  157
+(2703.98, 843.7955792726103, 2, 27)
+Done.
