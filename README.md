@@ -1,19 +1,18 @@
-# MarioRL
+# Towards Human-Level Safe Reinforcement Learning in Atari Library Environment
 
-Using [Gym Super Mario Bros](https://pypi.org/project/gym-super-mario-bros/) as the environment and [Stable Baselines](https://github.com/hill-a/stable-baselines), a fork of OpenAI's popular [Baselines](https://github.com/openai/baselines) reinforcement learning library, we apply concepts highlighted in recent influential papers in the RL space to traing an agent to beat Super Mario Bros for NES as quickly as possible. 
+Using [Gym Super Mario Bros](https://pypi.org/project/gym-super-mario-bros/) as the environment 
+Using [Stable Baselines](https://github.com/hill-a/stable-baselines), a fork of OpenAI's popular [Baselines](https://github.com/openai/baselines) reinforcement learning library
 
-The final report on our findings is included in the repo as paper.pdf. 
+using the concept of modified reward, as the simplest safety constraint to enforce safety behaviour of the agent.
 
 ## Setup
-*Important*: must use Python version < 3.8, preferrably Python-3.7.6
+must use Python version < 3.8, preferrably Python-3.7.6
 ```
+this research is using vscode with virtual environment
 python -m venv .env
 source .env/bin/activate
 pip install -r requirements.txt
 ```
 
-## Potential PMIX Error Fix
-Solve by using the following line:
-```
-export PMIX_MCA_gds=hash
-```
+## Fix stable_baselines3 (if error)
+pip install git+https://github.com/carlosluis/stable-baselines3@fix_tests
