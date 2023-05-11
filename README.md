@@ -15,4 +15,5 @@ pip install -r requirements.txt
 ```
 
 ## Fix stable_baselines3 (if error)
+'''
 pip install git+https://github.com/carlosluis/stable-baselines3@fix_tests
