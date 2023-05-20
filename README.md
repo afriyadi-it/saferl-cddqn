@@ -5,16 +5,40 @@ Using [Stable Baselines](https://github.com/hill-a/stable-baselines), a fork of 
 
 using the concept of modified reward, as the simplest safety constraint to enforce safety behaviour of the agent.
 
+### Dueling Double DQN
+| Notes | GIFs |
+| --- | :---: |
+| <ins>**Proceed smoothly, but violation in the end **</ins> <br> <ul><li>Reward 9999 <li>Violation 8888 <li>Completion rate 99%</ul> |**Iteration: 100k**<br> ![1-1-v0](https://github.com/afriyadi-it/saferl-cddqn/asset/01.safeddqn-1m.gif) |
+| <ins>**Proceed smoothly, but violation in the end **</ins> <br> <ul><li>Reward 9999 <li>Violation 8888 <li>Completion rate 99%</ul> |**Iteration: 100k**<br> ![1-1-v0](https://github.com/afriyadi-it/saferl-cddqn/asset/01.safeddqn-1m.gif) |
+
+
 ## Setup
 must use Python version < 3.8, preferrably Python-3.7.6
-```
 this research is using vscode with virtual environment
-python -m venv .env
-source .env/bin/activate
+```
 pip install -r requirements.txt
 ```
+## Training
 
-## Fix stable_baselines3 (if error)
+Training process is started with
+
 ```
-pip install git+https://github.com/carlosluis/stable-baselines3@fix_tests
+python train.py
 ```
+
+## Evaluation
+
+Evaluation process is started with
+
+```
+python eval.py
+```
+
+# Details
+
+RL algorithms hide a lot of implementation tricks and they are highly sensitive
+to parameters change. Often, it is painful to search for an optimal
+actor-critic architecture, observation image preprocessing steps, etc.
+
+This section provides information about such tricks that are used to
+successfully train an agent to play Super Mario Bros game.
