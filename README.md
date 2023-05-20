@@ -8,8 +8,8 @@ using the concept of modified reward, as the simplest safety constraint to enfor
 ### Dueling Double DQN
 | Notes | GIFs |
 | --- | :---: |
-| <ins>**Proceed smoothly, but violation in the end **</ins> <br> <ul><li>Reward 9999 <li>Violation 8888 <li>Completion rate 99%</ul> |**Iteration: 100k**<br> ![1-1-v0](https://github.com/afriyadi-it/saferl-cddqn/asset/01.safeddqn-1m.gif) |
-| <ins>**Proceed smoothly, but violation in the end **</ins> <br> <ul><li>Reward 9999 <li>Violation 8888 <li>Completion rate 99%</ul> |**Iteration: 100k**<br> ![1-1-v0](https://github.com/afriyadi-it/saferl-cddqn/asset/01.safeddqn-1m.gif) |
+| <ins>** Proceed smoothly, but violation in the end **</ins> <br> <ul><li>Reward 9999 <li>Violation 8888 <li>Completion rate 99%</ul> |**Iteration: 100k**<br> ![Safe DDQN 1 million iteration](/assets/01.safeddqn-1m.gif) |
+| <ins>**Proceed smoothly, but violation in the end **</ins> <br> <ul><li>Reward 9999 <li>Violation 8888 <li>Completion rate 99%</ul> |**Iteration: 100k**<br> ![1-1-v0](/assets/01.safeddqn-1m.gif) |
 
 
 ## Setup
