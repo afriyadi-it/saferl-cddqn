@@ -23,7 +23,7 @@ env = FrameStack(env, n_frames=hp.FRAME_STACK)
 env = MaxAndSkipEnv(env, skip=hp.FRAME_SKIP)
 
 # model = DQN.load("_fixed_models/dqn_500k_steps")
-model = DQN.load("models/dqn_10000000_steps")
+model = DQN.load("_fixed_models/safe-ddqn_10m_steps")
 
 obs = env.reset()
 
@@ -40,6 +40,6 @@ obs = env.reset()
 #         cr = 0
 #         break
 
-print(evaluate_policy(model, env, n_eval_episodes=100, deterministic=False, render=False))
+print(evaluate_policy(model, env, n_eval_episodes=1, deterministic=False, render=True))
 
 print("Done.")

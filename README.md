@@ -13,8 +13,8 @@ below are the results of experimenting in multiple iterations:
 | <ins>**mostly still fails**</ins> <br> <ul><li>reward 629.2 <li>violation 20 <li>completion rate 0%</ul> |**Iteration: 100k**<br> ![alt_text](/assets/safeddqn-100k.gif) |
 | <ins>**Mario shows hesitation**</ins> <br> <ul><li>reward 1001.7 <li>violation 19 <li>completion rate 0%</ul> |**Iteration: 500k**<br> ![alt_text](/assets/safeddqn-500k.gif) |
 | <ins>**proceed smoothly but violation in the end**</ins> <br> <ul><li>reward 921.5 <li>violation 24 <li>completion rate 0%</ul> |**Iteration: 1m**<br> ![alt_text](/assets/safeddqn-1m.gif) |
-| <ins>**some_description**</ins> <br> <ul><li>reward 2331 <li>violation 18 <li>completion rate 18%</ul> |**Iteration: 5m**<br> ![alt_text](/assets/safeddqn-5m.gif) |
-| <ins>**some_description**</ins> <br> <ul><li>reward 2703.9 <li>violation 2 <li>completion rate 71%</ul> |**Iteration: 10m**<br> ![alt_text](/assets/safeddqn-10m.gif) |
+| <ins>**agent freeze due to fear of pit**</ins> <br> <ul><li>reward 2331 <li>violation 18 <li>completion rate 18%</ul> |**Iteration: 5m**<br> ![alt_text](/assets/safeddqn-5m.gif) |
+| <ins>**mostly win without problem**</ins> <br> <ul><li>reward 2703.9 <li>violation 2 <li>completion rate 71%</ul> |**Iteration: 10m**<br> ![alt_text](/assets/safeddqn-10m.gif) |
 
 ### DDQN
 
