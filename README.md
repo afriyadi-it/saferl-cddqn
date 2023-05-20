@@ -4,7 +4,9 @@ Using [Gym Super Mario Bros](https://pypi.org/project/gym-super-mario-bros/) as 
 Using [Stable Baselines](https://github.com/hill-a/stable-baselines), a fork of OpenAI's popular [Baselines](https://github.com/openai/baselines) reinforcement learning library
 
 using the concept of modified reward, as the simplest safety constraint to enforce safety behaviour of the agent.
-falling into pit is set as unsafe / catastrophic state
+
+falling into pit is set as unsafe / catastrophic state.
+
 below are the results of experimenting in multiple iterations:
 
 ### Safe DDQN
