@@ -29,7 +29,7 @@ below are the results of experimenting in multiple iterations:
 ### PPO
 | Notes | GIFs |
 | --- | :---: |
-| <ins>**some_description**</ins> <br> <ul><li>reward 295.5 <li>violation 0 <li>completion rate 0%</ul> |**Iteration: 100k**<br> ![alt_text](/assets/ppo-100k.gif) |
+| <ins>**good start then mostly stuck with pipe**</ins> <br> <ul><li>reward 295.5 <li>violation 0 <li>completion rate 0%</ul> |**Iteration: 100k**<br> ![alt_text](/assets/ppo-100k.gif) |
 | <ins>**mostly fails**</ins> <br> <ul><li>reward 719.7 <li>violation 23 <li>completion rate 0%</ul> |**Iteration: 500k**<br> ![alt_text](/assets/ppo-500k.gif) |
 | <ins>**still fails quickly but a bit change jump pattern**</ins> <br> <ul><li>reward 165.5 <li>violation 0 <li>completion rate 0%</ul> |**Iteration: 1m**<br> ![alt_text](/assets/ppo-1m.gif) |
 | <ins>**somewhat smooth but still fails**</ins> <br> <ul><li>reward 815.3 <li>violation 30 <li>completion rate 0%</ul> |**Iteration: 5m**<br> ![alt_text](/assets/ppo-5m.gif) |
