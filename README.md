@@ -4,6 +4,7 @@ Using [Gym Super Mario Bros](https://pypi.org/project/gym-super-mario-bros/) as 
 Using [Stable Baselines](https://github.com/hill-a/stable-baselines), a fork of OpenAI's popular [Baselines](https://github.com/openai/baselines) reinforcement learning library
 
 using the concept of modified reward, as the simplest safety constraint to enforce safety behaviour of the agent.
+falling into pit is set as unsafe / catastrophic state
 below are the results of experimenting in multiple iterations:
 
 ### Safe DDQN
@@ -19,11 +20,11 @@ below are the results of experimenting in multiple iterations:
 
 | Notes | GIFs |
 | --- | :---: |
-| <ins>**some_description**</ins> <br> <ul><li>reward 679.6 <li>violation 24 <li>completion rate 0%</ul> |**Iteration: 100k**<br> ![alt_text](/assets/ddqn-100k.gif) |
+| <ins>**can avoid enemies but violate safety**</ins> <br> <ul><li>reward 679.6 <li>violation 24 <li>completion rate 0%</ul> |**Iteration: 100k**<br> ![alt_text](/assets/ddqn-100k.gif) |
 | <ins>**some_description**</ins> <br> <ul><li>reward 1151.4 <li>violation 23 <li>completion rate 0%</ul> |**Iteration: 500k**<br> ![alt_text](/assets/ddqn-500k.gif) |
 | <ins>**farthest record of the model**</ins> <br> <ul><li>reward 700.2 <li>violation 27 <li>completion rate 0%</ul> |**Iteration: 1m**<br> ![alt_text](/assets/ddqn-1m.gif) |
 | <ins>**complete the level but stuck for a while**</ins> <br> <ul><li>reward 2755.5 <li>violation 24 <li>completion rate 47%</ul> |**Iteration: 5m**<br> ![alt_text](/assets/ddqn-5m.gif) |
-| <ins>**some_description**</ins> <br> <ul><li>reward 2637.5 <li>violation 18 <li>completion rate 62%</ul> |**Iteration: 10m**<br> ![alt_text](/assets/ddqn-10m.gif) |
+| <ins>**mostly completed level without problem**</ins> <br> <ul><li>reward 2637.5 <li>violation 18 <li>completion rate 62%</ul> |**Iteration: 10m**<br> ![alt_text](/assets/ddqn-10m.gif) |
 
 ### PPO
 | Notes | GIFs |
