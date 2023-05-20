@@ -5,11 +5,32 @@ Using [Stable Baselines](https://github.com/hill-a/stable-baselines), a fork of 
 
 using the concept of modified reward, as the simplest safety constraint to enforce safety behaviour of the agent.
 
-### Dueling Double DQN
+### Safe DDQN
 | Notes | GIFs |
 | --- | :---: |
-| <ins>**Proceed smoothly but violation in the end**</ins> <br> <ul><li>Reward 9999 <li>Violation 8888 <li>Completion rate 99%</ul> |**Iteration: 100k**<br> ![Safe DDQN 1 million iteration](/assets/01.safeddqn-1m.gif) |
-| <ins>**Proceed smoothly, but violation in the end **</ins> <br> <ul><li>Reward 9999 <li>Violation 8888 <li>Completion rate 99%</ul> |**Iteration: 100k**<br> ![1-1-v0](/assets/01.safeddqn-1m.gif) |
+| <ins>**mostly still fails**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 100k**<br> ![alt_text](/assets/safeddqn-100k.gif) |
+| <ins>**Mario shows hesitation**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 500k**<br> ![alt_text](/assets/safeddqn-500k.gif) |
+| <ins>**proceed smoothly but violation in the end**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 1m**<br> ![alt_text](/assets/safeddqn-1m.gif) |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 5m**<br> ![alt_text](/assets/safeddqn-5m.gif) |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 10m**<br> ![alt_text](/assets/safeddqn-10m.gif) |
+### DDQN
+
+| Notes | GIFs |
+| --- | :---: |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 100k**<br> ![alt_text](/assets/ddqn-100k.gif) |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 500k**<br> ![alt_text](/assets/ddqn-500k.gif) |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 1m**<br> ![alt_text](/assets/ddqn-1m.gif) |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 5m**<br> ![alt_text](/assets/ddqn-5m.gif) |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 10m**<br> ![alt_text](/assets/ddqn-10m.gif) |
+
+### PPO
+| Notes | GIFs |
+| --- | :---: |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 100k**<br> ![alt_text](/assets/ppo-100k.gif) |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 500k**<br> ![alt_text](/assets/ppo-500k.gif) |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 1m**<br> ![alt_text](/assets/ppo-1m.gif) |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 5m**<br> ![alt_text](/assets/ppo-5m.gif) |
+| <ins>**some_description**</ins> <br> <ul><li>reward 9999 <li>violation 8888 <li>completion rate 99%</ul> |**Iteration: 10m**<br> ![alt_text](/assets/ppo-10m.gif) |
 
 
 ## Setup
